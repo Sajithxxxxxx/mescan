@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 Running the Tool: You need root (administrator) privileges to scan the network, so run the tool using sudo or as an administrator.
 
-    sudo python3 Mescan.py
+    sudo python3 MESCAN.py
 
 Usage
 
