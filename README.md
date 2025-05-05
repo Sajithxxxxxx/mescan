@@ -16,7 +16,6 @@ Mescan is a simple and lightweight Python tool for scanning a local network to d
 
    ```bash
    git clone https://github.com/Sajithxxxxxx/mescan.git
-   cd mescan
 
     Install Dependencies: Mescan requires Python 3 and a couple of Python libraries to run. You can install the dependencies using pip.
 
@@ -30,7 +29,7 @@ Usage
 
     Once the tool starts, it will scan the entire local network (192.168.1.0/24 by default).
 
-    It will display a list of devices found, showing both IP and MAC addresses.
+    It will display a list of devices found, showing both IP MAC addresses and services.
 
     The tool will run multiple scans automatically to ensure accuracy.
 
@@ -40,7 +39,7 @@ Customizing the Scan
 
 Example:
 
-sudo python3 Mescan.py --network 192.168.0.0/24
+sudo python3 MESCAN.py --network 192.168.0.0/24
 
 Dependencies
 
