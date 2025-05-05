@@ -1,56 +1,68 @@
-# Mescan: Python Network IP Scanner
+# MeScan Python Network IP and MAC Scanner
 
-Mescan is a simple and lightweight Python tool for scanning a local network to detect active devices using ARP requests. It's built with **Scapy** and doesn't require `arp-scan` or any other external scanning tools.
+MeScan is a lightweight and stylish Python tool that scans your local network to identify active devices using ARP requests. Built with Scapy and Rich, it not only displays IP and MAC addresses but also attempts to resolve hostnames, all with a clean terminal UI.
 
-## Features
-- Scans for devices on your local network
-- Displays both IP and MAC addresses of connected devices
+ ## Features
 
----
+   > Scans your local network using ARP
 
-## **Installation Instructions**
+   > Displays IP address, MAC address, and hostname of connected devices
 
-1. **Clone the Repository**:
-   First, clone this repository to your local machine using Git.
+   > Uses Rich for a colorful and readable terminal output
 
-   ```bash
-   git clone https://github.com/Sajithxxxxxx/mescan.git
+   > Automatically detects your default network interface and subnet
 
-    Install Dependencies: Mescan requires Python 3 and a couple of Python libraries to run. You can install the dependencies using pip.
+## Installation
 
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Sajithxxxxxx/mescan.git
+cd mescan
+```
+### 2. Install Dependencies
+
+Make sure you have Python 3 installed, then run:
+
+```bash
 pip install -r requirements.txt
+```
+   Dependencies:
 
-Running the Tool: You need root (administrator) privileges to scan the network, so run the tool using sudo or as an administrator.
+   scapy
 
-    sudo python3 MESCAN.py
+   rich
 
-Usage
+   netifaces
 
-    Once the tool starts, it will scan the entire local network (192.168.1.0/24 by default).
+You can also install them manually:
+```bash
+pip install scapy rich netifaces
+```
+### Run
+Run the tool with root privileges 
+```bash
+sudo python3 me_scan.py
+```
+## Usage
 
-    It will display a list of devices found, showing both IP MAC addresses and services.
+By default, MeScan:
 
-    The tool will run multiple scans automatically to ensure accuracy.
+   Detects your active network interface
+
+   Calculates your subnet range (e.g., 192.168.1.0/24)
+
+   Scans for devices on that range
+
 
 Customizing the Scan
 
-    If you want to scan a different network range, you can modify the network variable in the script, or you can add a command-line argument for dynamic input.
+To scan a custom network range, edit the line that generates ip_range:
 
-Example:
+ip_range = "192.168.0.0/24"
 
-sudo python3 MESCAN.py --network 192.168.0.0/24
+Or modify the script to accept command-line arguments for more flexibility.
 
-Dependencies
+## License
 
-    Scapy
-
-    netifaces
-
-License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-
----
-
-This will give users a clear guide on how to **clone**, **install**, and **run** your tool.
+This project is licensed under the MIT License.
