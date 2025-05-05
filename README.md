@@ -3,7 +3,6 @@
 Mescan is a simple and lightweight Python tool for scanning a local network to detect active devices using ARP requests. It's built with **Scapy** and doesn't require `arp-scan` or any other external scanning tools.
 
 ## Features
-- No dependencies on `arp-scan`
 - Scans for devices on your local network
 - Displays both IP and MAC addresses of connected devices
 
