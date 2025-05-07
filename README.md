@@ -23,6 +23,10 @@ cd mescan
 ### 2. Install Dependencies
 
 Make sure you have Python 3 installed, then run:
+```bash
+sudo apt install pyhton3
+```
+OR
 
 ```bash
 pip install -r requirements.txt
