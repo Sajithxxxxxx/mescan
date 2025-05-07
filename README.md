@@ -17,7 +17,7 @@ MeScan is a lightweight and stylish Python tool that scans your local network to
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Sajithxxxxxx/mescan.git
+git clone https://github.com/jaguar-00700/mescan.git
 cd mescan
 ```
 ### 2. Install Dependencies
