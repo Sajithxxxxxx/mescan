@@ -1,18 +1,13 @@
-
-![mescan](https://github.com/user-attachments/assets/7f191166-3f5d-4d72-8aba-e1df3464f663)
-
-
-
-
-
-
-
 # MeScan Python Network IP and MAC Scanner
 
 MeScan scans the local network using ARP requests and identifies active devices by displaying their IP addresses, MAC addresses, and hostnames — all in a clean, user-friendly terminal interface.
 
 Unlike many existing network scanners, MeScan prioritizes accuracy, simplicity, and a modern terminal experience. It automatically detects the active interface and subnet, making it ideal for fast local discovery without manual setup.
 
+
+
+
+![mescan](https://github.com/user-attachments/assets/d0b8eb45-e6ac-4952-9d9b-89b00d10ffc3)
 
 
 
