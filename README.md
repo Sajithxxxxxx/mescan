@@ -26,7 +26,7 @@ Unlike many existing network scanners, MeScan prioritizes accuracy, simplicity, 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/jaguar-00700/mescan.git
+git clone https://github.com/sajithkumars-0/mescan.git
 cd mescan
 ```
 ### 2. Install Dependencies
