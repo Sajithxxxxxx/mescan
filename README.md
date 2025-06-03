@@ -33,7 +33,7 @@ cd mescan
 
 Make sure you have Python 3 installed, then run:
 ```bash
-sudo apt install pyhton3
+sudo apt install python3
 ```
 ||
 
