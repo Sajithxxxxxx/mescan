@@ -35,11 +35,7 @@ Make sure you have Python 3 installed, then run:
 ```bash
 sudo apt install python3
 ```
-||
 
-```bash
-pip install -r requirements.txt
-```
    Dependencies:
 
    scapy
